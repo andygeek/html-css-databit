@@ -32,7 +32,21 @@ header {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  min-width: 320px;
-  height: 334px;
+  min-width: 32rem;
+  height: 33rem;
   text-align: center;
+}
+header img{
+  width: 15rem;
+  height: 2.4rem;
+  margin-top: 6rem;
+  align-self: center;
+}
+.header__title-container{
+  width: 90%;
+  min-width: 28rem;
+  max-width: 90rem;
+  height: 22rem;
+  margin-top: 4rem;
+  align-self: center;
 }
