@@ -35,6 +35,7 @@ header {
   min-width: 32rem;
   height: 33rem;
   text-align: center;
+  background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
 }
 header img{
   width: 15rem;
@@ -49,4 +50,17 @@ header img{
   height: 22rem;
   margin-top: 4rem;
   align-self: center;
+}
+.header__title-container h1{
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+}
+.header__title-container p{
+  margin-top: 2.5rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--soft-orange);
 }
